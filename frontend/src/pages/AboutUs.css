@@ -1,0 +1,101 @@
+/* Light Theme About Page */
+.about-container {
+    min-height: 100vh;
+    background: #f9fafb;
+    color: #334155;
+    padding: 60px 0;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* Header */
+.about-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.about-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    color: #1e293b;
+}
+
+/* Cards */
+.about-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 35px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+.about-card:hover {
+    background: #f8fafc;
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.about-card h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    color: #1e293b;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.about-card p {
+    line-height: 1.8;
+    color: #475569;
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+/* Feature List */
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-list li {
+    padding: 15px 0;
+    border-bottom: 1px solid #f1f5f9;
+    color: #475569;
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+
+.feature-list li:last-child {
+    border-bottom: none;
+}
+
+.feature-list strong {
+    color: #1e293b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-content {
+        padding: 0 20px;
+    }
+
+    .about-title {
+        font-size: 2.2rem;
+    }
+
+    .about-card {
+        padding: 25px;
+    }
+
+    .about-card h2 {
+        font-size: 1.4rem;
+    }
+}

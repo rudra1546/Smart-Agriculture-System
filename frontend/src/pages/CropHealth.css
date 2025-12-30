@@ -1,0 +1,140 @@
+/* Light Theme CropHealth Page */
+.crophealth-container {
+    min-height: 100vh;
+    background: #f9fafb;
+    color: #334155;
+    padding: 40px 0;
+}
+
+.crophealth-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* Header */
+.crophealth-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.crophealth-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    color: #1e293b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.crophealth-subtitle {
+    font-size: 1.1rem;
+    color: #64748b;
+    margin: 0;
+    font-weight: 400;
+}
+
+/* Info Cards */
+.info-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+.info-card h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    color: #1e293b;
+}
+
+.info-card p {
+    line-height: 1.8;
+    color: #475569;
+    margin: 0 0 20px 0;
+}
+
+/* Feature Pills */
+.features-grid-small {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.feature-pill {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.feature-pill:hover {
+    background: #ffffff;
+    border-color: #cbd5e1;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+.feature-pill strong {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #1e293b;
+}
+
+.feature-pill p {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Analysis Wrapper */
+.analysis-wrapper {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+/* Tips List */
+.tips-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tips-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #f1f5f9;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.tips-list li:last-child {
+    border-bottom: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .crophealth-content {
+        padding: 0 20px;
+    }
+
+    .crophealth-title {
+        font-size: 2rem;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .info-card {
+        padding: 20px;
+    }
+
+    .features-grid-small {
+        grid-template-columns: 1fr;
+    }
+}
